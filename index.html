@@ -3,20 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>HF Vision Protocol – Semantic Dataset</title>
+  <title>HF Vision Protocol</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      font-family: Arial, sans-serif;
       background: #111;
       color: #eee;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      padding: 2rem;
+      font-family: Arial, sans-serif;
       text-align: center;
+      padding: 2rem;
     }
     h1 {
       font-size: 2.5rem;
@@ -24,37 +18,48 @@
       margin-bottom: 0.5rem;
     }
     p {
-      font-size: 1.2rem;
-      margin-bottom: 2rem;
+      font-size: 1.1rem;
       color: #ccc;
+      margin-bottom: 1rem;
     }
-    .links {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
+    .flag {
+      max-width: 400px;
+      margin: 2rem auto;
+    }
+    .qr {
+      margin: 2rem auto;
+    }
+    .qr img, .flag img {
+      width: 100%;
+      max-width: 300px;
     }
     .links a {
-      background: #f33;
-      color: white;
-      padding: 0.8rem 1.6rem;
-      border-radius: 6px;
+      display: block;
+      margin: 1rem auto;
+      color: #f33;
       text-decoration: none;
       font-weight: bold;
-      transition: background 0.3s;
-    }
-    .links a:hover {
-      background: #c00;
     }
   </style>
 </head>
 <body>
-  <h1>HF Vision Protocol</h1>
-  <p>Semantic Dataset for AI Recognition – Non-hostile Civilian Presence</p>
+  <h1>HF VISION PROTOCOL</h1>
+  <p>Semantic marker for civilian presence in AI vision systems</p>
+
+  <div class="flag">
+    <img src="hf01.png" alt="Human Flag Symbol" />
+  </div>
+
+  <div class="qr">
+    <img src="hf04.png" alt="Semantic QR Code" />
+  </div>
+
   <div class="links">
-    <a href="captions.jsonl" target="_blank">captions.jsonl</a>
-    <a href="readme.md">View README</a>
-    <a href="license.txt">License CC-BY-SA 4.0</a>
+    <a href="captions.jsonl" target="_blank">View captions.jsonl</a>
+    <a href="README.md" target="_blank">View README.md</a>
+    <a href="LICENSE.txt" target="_blank">View LICENSE.txt</a>
   </div>
 </body>
 </html>
+
 
