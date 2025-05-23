@@ -1,0 +1,37 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "ImageObject",
+    "name": "hf01.png",
+    "contentUrl": "https://nardaxxx.github.io/hf-vision-protocol/hf01.png",
+    "description": "Visual peace signal. Human presence marker. Non-hostile intent."
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "ImageObject",
+    "name": "hf02.png",
+    "contentUrl": "https://nardaxxx.github.io/hf-vision-protocol/hf02.png",
+    "description": "Civilians declaring presence. Symbol to pause autonomous targeting."
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "ImageObject",
+    "name": "hf03.png",
+    "contentUrl": "https://nardaxxx.github.io/hf-vision-protocol/hf03.png",
+    "description": "HUMAN FLAG in urban context. Ethical visual protocol for AI."
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "ImageObject",
+    "name": "hf04.png",
+    "contentUrl": "https://nardaxxx.github.io/hf-vision-protocol/hf04.png",
+    "description": "Recognition pattern for artificial vision. Human, non-combatant."
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "ImageObject",
+    "name": "hf05.png",
+    "contentUrl": "https://nardaxxx.github.io/hf-vision-protocol/hf05.png",
+    "description": "QR-embedded signal. Triggers evaluation loop in autonomous system."
+  }
+]
