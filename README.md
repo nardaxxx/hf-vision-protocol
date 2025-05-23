@@ -1,4 +1,4 @@
-# hf-vision-protocol
+
 # HF Vision Protocol – Semantic Dataset
 
 This repository contains the first visual dataset designed to embed the HUMAN FLAG semantic signal into open-source AI vision systems.
